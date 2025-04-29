@@ -1,0 +1,174 @@
+       
+       * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+        }
+        
+        body {
+            background-color: #f8f8f8;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .header {
+            background-color: #fff;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 24px;
+            font-weight: 600; 
+            font-family: "Playfair Display", serif;
+            color: #222222;
+            text-decoration: none;
+        }
+        
+        
+        .nav {
+            display: flex;
+        }
+        
+        .nav-item {
+            margin-right: 40px;
+        }
+        
+        .nav-item a {
+            text-decoration: none;
+            color: #222;
+            font-weight: 500; /* Set a medium base weight */
+        }
+        .nav-item a:hover {
+            color: #b0bef2; /* Or any color you want */
+            text-decoration: none; /* Optional: adds an underline on hover */
+            transition: color 0.3s;
+        }
+        
+               
+
+        
+        .fashion {
+            text-align: center;
+            padding: 60px 0 40px;
+        }
+        
+        .fashion h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+        
+        .fashion p {
+            color: #666;
+            max-width: 700px;
+            margin: 0 auto 30px;
+        }
+        
+        .outfits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 30px;
+            padding: 40px 0;
+        }
+        
+        .outfit-card {
+            background-color: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 3px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .outfit-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+            cursor: pointer;
+        }
+        
+        .outfit-image {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+        }
+        
+        .outfit-info {
+            padding: 20px;
+        }
+        
+        .outfit-title {
+            font-size: 18px;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        
+        .outfit-desc {
+            color: #666;
+            margin-bottom: 15px;
+            font-size: 15px;
+        }
+        
+        .footer {
+            background-color: #96c7f2;
+            color: #fff;
+            padding: 40px 0;
+            text-align: center;
+        }
+        
+        .footer-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .footer-content p {
+            color:#0e1f80
+        }
+        
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        
+        .footer-links a {
+            color: #ffffff;
+            margin: 0 15px;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .footer-links a:hover {
+            color: #1c3cef;
+        }
+
+        .playfair-display {
+            font-family: 'Playfair Display', serif;
+            font-optical-sizing: auto;
+            font-weight: 800; 
+            font-style: normal;
+            color:#8bbaf6
+        }
+
+        .current-page {
+            font-weight: bold;
+            color: #d67777;
+            border-bottom: 2px solid #666;
+        }
+          
+          
